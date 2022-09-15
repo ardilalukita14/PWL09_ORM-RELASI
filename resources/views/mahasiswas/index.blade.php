@@ -41,7 +41,7 @@
             <th>Jurusan</th>
             <th>Email</th>
             <th>No_Handphone</th>
-            <th width="400px">Action</th>
+            <th width="200px">Action</th>
         </tr>
         @foreach ($mahasiswas as $Mahasiswa)
         <tr>
@@ -69,7 +69,7 @@
     </table>
 
     <div class="d-flex justify-content-center">
-        {{$mahasiswas->links()}}
+    <div class="pagination">{{ $mahasiswas->links() }}</div>
     </div>
     
 @endsection
