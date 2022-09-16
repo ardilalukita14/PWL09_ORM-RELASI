@@ -54,6 +54,7 @@ class MahasiswaController extends Controller
             'kelas' => 'required',
             'Jurusan' => 'required',
             'Email' => 'required',
+            'Alamat' => 'required',
             'No_Handphone' => 'required',
             ]);
 
@@ -65,6 +66,7 @@ class MahasiswaController extends Controller
             $Mahasiswa->Tanggal_Lahir = $request->get('Tanggal_Lahir');
             $Mahasiswa->Jurusan = $request->get('Jurusan');
             $Mahasiswa->Email = $request->get('Email');
+            $Mahasiswa->Alamat = $request->get('Alamat');
             $Mahasiswa->No_Handphone = $request->get('No_Handphone');
 
             //fungsi eloquent untuk menambah data dengan relasi belongsTo
@@ -123,6 +125,7 @@ class MahasiswaController extends Controller
             'kelas' => 'required',
             'Jurusan' => 'required',
             'Email' => 'required',
+            'Alamat' => 'required',
             'No_Handphone' => 'required',
         ]);
 
@@ -132,6 +135,7 @@ class MahasiswaController extends Controller
         $mahasiswas->Tanggal_Lahir = $request->get('Tanggal_Lahir');
         $mahasiswas->Jurusan = $request->get('Jurusan');
         $mahasiswas->Email = $request->get('Email');
+        $mahasiswas->Alamat = $request->get('Alamat');
         $mahasiswas->No_Handphone = $request->get('No_Handphone');
         $mahasiswas->save();
 

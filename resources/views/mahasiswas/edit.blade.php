@@ -54,6 +54,10 @@
                         <input type="email" name="Email" class="form-control" id="Email" value="{{ $Mahasiswa->Email }}" aria-describedby="Email" > 
                     </div>
                     <div class="form-group">
+                        <label for="Alamat">Alamat</label> 
+                        <input type="Alamat" name="Alamat" class="form-control" id="Alamat" value="{{ $Mahasiswa->Alamat }}" aria-describedby="Alamat" > 
+                    </div>
+                    <div class="form-group">
                         <label for="No_Handphone">No_Handphone</label>  
                         <input type="No_Handphone" name="No_Handphone" class="form-control" id="No_Handphone" value="{{ $Mahasiswa->No_Handphone }}" aria-describedby="No_Handphone" > 
                     </div>

@@ -51,6 +51,10 @@
                         <input type="email" name="Email" class="form-control" id="Email" aria-describedby="Email" > 
                     </div>
                     <div class="form-group">
+                        <label for="Alamat">Alamat</label> 
+                        <input type="text" name="Alamat" class="form-control" id="Alamat" aria-describedby="Alamat" > 
+                    </div>
+                    <div class="form-group">
                         <label for="No_Handphone">No_Handphone</label>            
                         <input type="No_Handphone" name="No_Handphone" class="form-control" id="No_Handphone" aria-describedby="No_Handphone" > 
                     </div>

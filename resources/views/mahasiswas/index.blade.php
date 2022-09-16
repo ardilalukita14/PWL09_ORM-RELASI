@@ -40,6 +40,7 @@
             <th width="100px">Kelas</th>
             <th>Jurusan</th>
             <th>Email</th>
+            <th>Alamat</th>
             <th>No_Handphone</th>
             <th width="200px">Action</th>
         </tr>
@@ -52,6 +53,7 @@
             <td>{{ $Mahasiswa->kelas->nama_kelas }}</td>
             <td>{{ $Mahasiswa->Jurusan }}</td>
             <td>{{ $Mahasiswa->Email }}</td>
+            <td>{{ $Mahasiswa->Alamat }}</td>
             <td>{{ $Mahasiswa->No_Handphone }}</td>
             <td>
             <form action="{{ route('mahasiswa.destroy',$Mahasiswa->Nim) }}" method="POST">   
